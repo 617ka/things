@@ -1,0 +1,27 @@
+/* styles.css */
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 10%; /* Set your desired width */
+    left: 80%;
+   
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 30%; /* Each slide takes 100% of the container width */
+    padding: 20px;
+    border: 1px solid #501212;
+    background-color: #6e6bc9;
+}
+
+/* Add styling for buttons, fonts, etc. */
+
+/* Hide overflow to prevent horizontal scrollbar */
+body {
+    overflow-x: hidden;
+}
